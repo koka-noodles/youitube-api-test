@@ -14,8 +14,7 @@ function onClientLoad() {
 
 // Called automatically when YouTube API interface is loaded (see line 9).
 function onYouTubeApiLoad() {
-    // This API key is intended for use only in this lesson.
-    // See http://goo.gl/PdPA1 to get a key for your own applications.
+    
     gapi.client.setApiKey('AIzaSyAIorEJxO3GGHDQt_LZTv142xiVWlMqs-E');
 
     search();
@@ -25,7 +24,9 @@ function search() {
     // Use the JavaScript client library to create a search.list() API call.
     var request = gapi.client.youtube.search.list({
         part: 'snippet', 
-        q: 'cup of hearts'
+        channelId: 'UCCqEeDAUf4Mg0GgEN658tkA' , 
+        q: 'game' ,
+        maxResults: 20
     });
     
     // Send the request to the API server,
