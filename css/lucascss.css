@@ -1,0 +1,151 @@
+.col-md-1{  /*the standerd column*/
+	background: white;
+	border-radius: 5px;
+	border: 2px solid;
+	border-color: #ACAD94;
+	height: 5px;
+	width: 20%;
+	font-size: 1%;
+	/*-webkit-transition: width 2s ease, height 2s ease;
+	-moz-transition: width 2s ease, height 2s ease;
+	-o-transition: width 2s ease, height 2s ease;
+	transition: width 2s ease, height 2s ease;*/
+}
+
+
+.col-md-4{
+	background: #595959;
+	border-radius: 5px;
+}
+
+.col-md-8{
+	background: #4D5969;
+	border-radius: 100px;
+	height: 100px;
+
+}
+
+.col-md-6{
+	background: #7D90A8;
+	border-radius: 15px;
+	height: 10px;
+
+}
+
+
+.jumbotron {
+ /* height: 150px;*/
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  border: 2px solid;
+  border-color: #ACAD94;
+
+}
+
+#fix{    /*keeps the first jumbotron from scrolling*/ 
+  /*background:transparent;*/
+  position: fixed;
+  width: 90%;
+  /*height: 150px; */
+  margin-top: 30px;
+  background-color: yellow;
+
+}
+
+body {
+	background-color: #3B3F45;
+}
+
+.tpmargin{
+	margin-bottom: 300px;  /*keeps the contnt below the first jumbotron*/
+}
+
+.circle-draw{ 
+    width: 150px;
+    height: 150px;
+	border-style: solid;
+	border-color: #869BB5;
+    border-radius: 50%;
+    background-color: #B5D1F5;	
+    border-width: 2px;
+    display:block;
+}
+
+h1 { font-family: 'Raleway', sans-serif; font-weight: 400; }
+
+/*h2 { font-family: 'Poiret One', cursive; font-weight: 400; }
+
+h3 { font-family: 'Quicksand', sans-serif; font-weight: 400; }
+
+h4 { font-family: 'Ubuntu', sans-serif; font-weight: 400; }
+
+h5 { font-family: 'Lobster', cursive; font-weight: 400; }
+
+h6 { font-family: 'Lato', sans-serif; font-weight: 400; }*/
+
+
+
+
+
+#red.col-md-1{  /*the first unique column*/
+	background-color: red;
+	
+	
+	/*-webkit-transition: width 2s ease, height 2s ease;
+	-moz-transition: width 2s ease, height 2s ease;
+	-o-transition: width 2s ease, height 2s ease;
+	transition: width 2s ease, height 2s ease;*/
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+}
+
+
+
+
+
+
+#button { 
+	padding: .5em 1em; 
+	text-decoration: none; 
+}
+
+
+
+.newClass2 { 
+	 
+	color: rgb(0,0,255);
+	height: 30px;  
+	color: #fa8072; 
+	font-size: 120%;
+
+	/*-webkit-transition: width 2s ease, height 2s ease;
+	-moz-transition: width 2s ease, height 2s ease;
+	-o-transition: width 2s ease, height 2s ease;
+	transition: width 2s ease, height 2s ease;*/
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+
+
+}
+
+
+.red { 
+	color: red; 
+	height: 50px;  
+}
+
+.green { 
+	color: green;
+	height: 30px;   
+}
+
+.blue { 
+	color: yellow;
+	height: 30px;   
+}
