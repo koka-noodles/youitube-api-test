@@ -42,7 +42,20 @@ function onSearchResponse(response) {
     $('#search-container').html('<pre>' + str + '</pre>');
 
     document.getElementById("demo").innerHTML = response.items[0].snippet.title;
-    console.log(response.items[0].snippet.title)
+    console.log(response.items[0].snippet.title);
+
+    document.getElementById("demo").innerHTML = response.result[0];
+    console.log(response.result);
+   
+
+    var count = Object.keys(response).length;
+    console.log(count);
+
+    console.log("All "+Object.keys(response))
+
+    console.log("items "+Object.keys(response.items[0]))
+
+  
 
 
 }
