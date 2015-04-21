@@ -26,7 +26,7 @@ function search() {
         part: 'snippet', 
         channelId: 'UCCqEeDAUf4Mg0GgEN658tkA' , 
         q: 'game' ,
-        maxResults: 20
+        maxResults: 1
     });
     
     // Send the request to the API server,
@@ -37,4 +37,12 @@ function search() {
 // Called automatically with the response of the YouTube API request.
 function onSearchResponse(response) {
     showResponse(response);
+
+    var str = JSON.stringify(response.result);
+    $('#search-container').html('<pre>' + str + '</pre>');
+
+    document.getElementById("demo").innerHTML = response.items[0].snippet.title;
+    console.log(response.items[0].snippet.title)
+
+
 }
