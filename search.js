@@ -42,18 +42,30 @@ function onSearchResponse(response) {
     $('#search-container').html('<pre>' + str + '</pre>');
 
     document.getElementById("demo").innerHTML = response.items[0].snippet.title;
-    console.log(response.items[0].snippet.title);
-
-    document.getElementById("demo").innerHTML = response.result[0];
-    console.log(response.result);
    
-
+   
+   
     var count = Object.keys(response).length;
-    console.log(count);
 
-    console.log("All "+Object.keys(response))
+    console.log("response items [0] snippit title: "+response.items[0].snippet.title);
 
-    console.log("items "+Object.keys(response.items[0]))
+    console.log("response result: "+response.result);
+
+    console.log("response items: "+response.items[0].id.videoId);
+
+    console.log("count: "+count);
+
+    console.log("Object keys response: "+Object.keys(response))
+
+    console.log("OK items [0]: "+Object.keys(response.items[0]))
+
+    console.log("OK items [0].id: "+Object.keys(response.items[0].id))
+
+    console.log("OK items [0].id.kind: "+Object.keys(response.items[0].id.kind))
+
+    console.log("OK items [0].id.videoId: "+Object.keys(response.items[0].id.videoId))
+
+    console.log("OK items: "+Object.keys(response.items))
 
   
 
