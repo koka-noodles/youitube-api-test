@@ -25,7 +25,7 @@
   </head>
   
   <body>
-    
+    <input type="button" value="submit" onclick="resetbit();"  />
 
     <div class="container">
       <div id="fix">
@@ -52,14 +52,19 @@
     <div class="tpmargin"> <!-- here to keep the stuff below from being under the stuff above -->
       
     </div>
-    
+ 
+    <!-- <button id="button" class="ui-state-default ui-corner-all">Run Effect</button> -->
+   
+      <div class="container">
 
-     
-    <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
-    
+      <div class="jumbotron" >
+        
+        <form>
+        <input type="text" name="value" id='value' />
+        <input type="button" value="submit" onclick="verifyorder();"  />
+        </form>
 
-    <div class="container">
-      <div class="jumbotron">
+
         <div class="row">
 <!-- 
         <p id="demo"></p>
@@ -69,8 +74,7 @@
             <input type="submit" value="Submit">
         </form> -->
         
-       <input type="text" name="value" id='value' />
-       <input type="button" value="submit" onclick="verifyorder()" />
+      
 
         <div id="ytplayer"></div>
         <div id="ytplayer2"></div>
@@ -78,14 +82,14 @@
         <div id="ytplayer4"></div>
         
         
-        </div>
-          <pre id="search-container">
-        </div>
+       <!--  </div>
+          <pre id="search-container"> // outputs the json data 
+        </div> -->
 
           <div class="circle-draw"></div>  
         </div>
         <body>
-          <pre id="response"></pre>  <!-- change div back to pre to codify it -->
+          <pre id="response"></pre>  <!-- change div back to pre to codify it  . can be removed safely -->
         </body>
         <!-- <iframe width="420" height="315"
         src="http://www.youtube.com/embed/uJfLoE6hanc">
@@ -100,7 +104,7 @@
 
 
   
-
+<!-- 
     <div class="container">
       <div class="jumbotron">
         <div class="row">
@@ -141,7 +145,7 @@
         </div>
       </div>
     </div>  
-
+ -->
    
     
     
